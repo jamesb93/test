@@ -12,8 +12,6 @@ body:
     attributes:
       label: Please tell us what you were doing!
       description: The more details we have the easier it is to understand the problem. Please include example code to reproduce the situation if possible. You can drop files in this text area.
-      placeholder: I was using fluid.hpss~ to...
-      value: I was using fluid.hpss~ to...
     validations:
       required: true
 
@@ -31,7 +29,6 @@ body:
     validations:
       required: true      
 
-
   - type: dropdown
     id: os
     attributes:
@@ -40,6 +37,9 @@ body:
         - Mac
         - Windows
         - Linux
+    validations:
+      required: true
+
   - type: input
     id: os-version
     attributes:
@@ -48,6 +48,7 @@ body:
       placeholder: macOS 10.13
     validations:
       required: true
+
   - type: input
     id: flucoma-version
     attributes:
