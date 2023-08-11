@@ -1,6 +1,6 @@
 name: Bug or unexpected behaviour report
 description: Create a report to help us find and fix bugs or improve behaviour
-title: ""
+title: "Bug: "
 labels: ["bug"]
 body:
   - type: markdown
